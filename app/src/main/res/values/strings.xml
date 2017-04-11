@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Score Keeper Application 2.0</string>
+    <string name="action_settings">Settings</string>
+    <string name="jordan">Michael Jordan</string>
+    <string name="pippin">Scottie Pippen</string>
+    <string name="rodman">Dennis Rodman</string>
+    <string name="kerr">Steve Kerr</string>
+    <string name="kukoc">Toni Kukoc</string>
+    <string name="score">Score</string>
+    <string name="jones">Eddie Jones</string>
+    <string name="lue">Tyronn Lue</string>
+    <string name="bryant">Kobe Bryant</string>
+    <string name="campbell">Elden Campbell</string>
+    <string name="shaq">Shaquille O\'Neil</string>
+    <string name="fouls">Fouls</string>
+    <string name="one_point">1</string>
+    <string name="two_point">2</string>
+    <string name="three_point">3</string>
+    <string name="personal_score">Point : %s</string>
+    <string name="foul_count">Fouls: %s</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="default_score">0</string>
+    <string name="current_score" formatted = "false">Chicago Bulls %s - Los Angeles Lakers %s</string>
+</resources>
