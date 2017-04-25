@@ -468,6 +468,11 @@ public class ScrollingActivity extends AppCompatActivity implements View.OnClick
         }
     }
 
+    /**
+     *  Method to calculate and show it on the selected textview.
+     * @param fouls Textview to show
+     * @param foulCount
+     */
     private void changeFoulCount(TextView fouls, int foulCount) {
         String personalFoulCount = fouls.getText().toString();
         personalFoulCount = personalFoulCount.trim().substring(personalFoulCount.length()-1,personalFoulCount.length());
@@ -478,6 +483,12 @@ public class ScrollingActivity extends AppCompatActivity implements View.OnClick
         }
     }
 
+    /**
+     * Increasing point according to player and total point and show it in textviews
+     * @param teamPoint
+     * @param points
+     * @param pointToIncrease
+     */
     private void increasePoint(TextView teamPoint,TextView points, int pointToIncrease) {
         int teamPointInt = Integer.parseInt(teamPoint.getText().toString());
         teamPointInt += pointToIncrease;

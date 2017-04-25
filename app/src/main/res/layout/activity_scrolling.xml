@@ -151,16 +151,17 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:gravity="center">
                                     <TextView
                                         android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/jordan"
                                         android:gravity="center"/>
                                     <TextView
                                         android:id="@+id/jordan_points"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/personal_score"
                                         android:gravity="center"/>
                                 </LinearLayout>
@@ -206,13 +207,13 @@
                                     android:orientation="vertical">
                                     <TextView
                                         android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/pippin"
                                         android:gravity="center"/>
                                     <TextView
                                         android:id="@+id/pippen_points"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/personal_score"
                                         android:gravity="center"/>
                                 </LinearLayout>
@@ -255,16 +256,17 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:gravity="center">
                                     <TextView
                                         android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/rodman"
                                         android:gravity="center"/>
                                     <TextView
                                         android:id="@+id/rodman_points"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/personal_score"
                                         android:gravity="center"/>
                                 </LinearLayout>
@@ -307,16 +309,17 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:gravity="center">
                                     <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/kerr"
                                         android:gravity="center"/>
                                     <TextView
                                         android:id="@+id/kerr_points"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/personal_score"
                                         android:gravity="center"/>
                                 </LinearLayout>
@@ -359,16 +362,17 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:gravity="center">
                                     <TextView
                                         android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/kukoc"
                                         android:gravity="center"/>
                                     <TextView
                                         android:id="@+id/kukoc_points"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/personal_score"
                                         android:gravity="center"/>
                                 </LinearLayout>
@@ -420,14 +424,15 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="@dimen/team_item_height"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:gravity="center">
                                 <ImageView
                                     android:layout_width="@dimen/team_item_height"
                                     android:layout_height="@dimen/team_item_height"
                                     android:src="@drawable/chicago"/>
                                 <TextView
                                     android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
+                                    android:layout_height="wrap_content"
                                     android:text="@string/jordan"
                                     android:gravity="center"/>
 
@@ -463,14 +468,15 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="@dimen/team_item_height"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:gravity="center">
                                 <ImageView
                                     android:layout_width="@dimen/team_item_height"
                                     android:layout_height="@dimen/team_item_height"
                                     android:src="@drawable/chicago"/>
                                 <TextView
                                     android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
+                                    android:layout_height="wrap_content"
                                     android:text="@string/pippin"
                                     android:gravity="center"/>
 
@@ -506,14 +512,15 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="@dimen/team_item_height"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:gravity="center">
                                 <ImageView
                                     android:layout_width="@dimen/team_item_height"
                                     android:layout_height="@dimen/team_item_height"
                                     android:src="@drawable/chicago"/>
                                 <TextView
                                     android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
+                                    android:layout_height="wrap_content"
                                     android:text="@string/rodman"
                                     android:gravity="center"/>
 
@@ -549,14 +556,15 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="@dimen/team_item_height"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:gravity="center">
                                 <ImageView
                                     android:layout_width="@dimen/team_item_height"
                                     android:layout_height="@dimen/team_item_height"
                                     android:src="@drawable/chicago"/>
                                 <TextView
                                     android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
+                                    android:layout_height="wrap_content"
                                     android:text="@string/kerr"
                                     android:gravity="center"/>
 
@@ -592,14 +600,15 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="@dimen/team_item_height"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:gravity="center">
                                 <ImageView
                                     android:layout_width="@dimen/team_item_height"
                                     android:layout_height="@dimen/team_item_height"
                                     android:src="@drawable/chicago"/>
                                 <TextView
                                     android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
+                                    android:layout_height="wrap_content"
                                     android:text="@string/kukoc"
                                     android:gravity="center"/>
 
@@ -674,16 +683,17 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:gravity="center">
                                     <TextView
                                         android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/jones"
                                         android:gravity="center"/>
                                     <TextView
                                         android:id="@+id/jones_points"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/personal_score"
                                         android:gravity="center"/>
                                 </LinearLayout>
@@ -726,16 +736,17 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:gravity="center">
                                     <TextView
                                         android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/lue"
                                         android:gravity="center"/>
                                     <TextView
                                         android:id="@+id/lue_points"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/personal_score"
                                         android:gravity="center"/>
                                 </LinearLayout>
@@ -781,13 +792,13 @@
                                     android:orientation="vertical">
                                     <TextView
                                         android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/bryant"
                                         android:gravity="center"/>
                                     <TextView
                                         android:id="@+id/bryant_points"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/personal_score"
                                         android:gravity="center"/>
                                 </LinearLayout>
@@ -833,13 +844,13 @@
                                     android:orientation="vertical">
                                     <TextView
                                         android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/campbell"
                                         android:gravity="center"/>
                                     <TextView
                                         android:id="@+id/campbell_points"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/personal_score"
                                         android:gravity="center"/>
                                 </LinearLayout>
@@ -882,16 +893,17 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:gravity="center">
                                     <TextView
                                         android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/shaq"
                                         android:gravity="center"/>
                                     <TextView
                                         android:id="@+id/shaq_points"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="@dimen/text_layout_height"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
                                         android:text="@string/personal_score"
                                         android:gravity="center"/>
                                 </LinearLayout>
@@ -943,14 +955,15 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="@dimen/team_item_height"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:gravity="center">
                                 <ImageView
                                     android:layout_width="@dimen/team_item_height"
                                     android:layout_height="@dimen/team_item_height"
                                     android:src="@drawable/losangeles"/>
                                 <TextView
                                     android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
+                                    android:layout_height="wrap_content"
                                     android:text="@string/jones"
                                     android:gravity="center"/>
 
@@ -986,16 +999,19 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="@dimen/team_item_height"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:gravity="center">
                                 <ImageView
                                     android:layout_width="@dimen/team_item_height"
                                     android:layout_height="@dimen/team_item_height"
                                     android:src="@drawable/losangeles"/>
+
                                 <TextView
                                     android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
+                                    android:layout_height="wrap_content"
                                     android:text="@string/lue"
-                                    android:gravity="center"/>
+                                    android:gravity="center"
+                                    android:id="@+id/textView" />
 
                             </LinearLayout>
 
@@ -1029,14 +1045,15 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="@dimen/team_item_height"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:gravity="center">
                                 <ImageView
                                     android:layout_width="@dimen/team_item_height"
                                     android:layout_height="@dimen/team_item_height"
                                     android:src="@drawable/losangeles"/>
                                 <TextView
                                     android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
+                                    android:layout_height="wrap_content"
                                     android:text="@string/bryant"
                                     android:gravity="center"/>
 
@@ -1072,14 +1089,15 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="@dimen/team_item_height"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:gravity="center">
                                 <ImageView
                                     android:layout_width="@dimen/team_item_height"
                                     android:layout_height="@dimen/team_item_height"
                                     android:src="@drawable/losangeles"/>
                                 <TextView
                                     android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
+                                    android:layout_height="wrap_content"
                                     android:text="@string/campbell"
                                     android:gravity="center"/>
 
@@ -1115,14 +1133,15 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="@dimen/team_item_height"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:gravity="center">
                                 <ImageView
                                     android:layout_width="@dimen/team_item_height"
                                     android:layout_height="@dimen/team_item_height"
                                     android:src="@drawable/losangeles"/>
                                 <TextView
                                     android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
+                                    android:layout_height="wrap_content"
                                     android:text="@string/shaq"
                                     android:gravity="center"/>
 
